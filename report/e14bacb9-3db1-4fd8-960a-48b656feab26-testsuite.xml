@@ -1,0 +1,23 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571985092665" stop="1571985092665">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1571985092665" status="broken" stop="1571985092665">
+      <name>test_login</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>ImportError while importing test module 'D:\Appiums\Day-08\scripts\test_login.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+scripts\test_login.py:3: in &lt;module&gt;
+    from page.pagein import PageIn
+E   ImportError: No module named 'page'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
